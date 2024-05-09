@@ -1,14 +1,28 @@
 let score = 0;
+let round = 0;
 function checkAnswer(answer, question) {
     
     if (question === 'PIM ย่อมาจากอะไร ?') {
         if (answer === 'a') {
-            score++;
+            round++;
+            if (round <= 2){
+                score++;
+            }
+            
+        }
+        else {
+            round++;
         }
     }
     else {
         if (answer === 'b') {
-            score++;
+            round++;
+            if (round <= 2){
+                score++;
+            }
+        }
+        else {
+            round++;
         }
     }
     
