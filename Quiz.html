@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+   <div class="quiz-container">
+       <h1></h1>
+       <p class="question">PIM ย่อมาจากอะไร ?</p>
+       <button class="btn" onclick="checkAnswer('a','PIM ย่อมาจากอะไร ?')">A. พีไอเอ็ม</button>
+       <button class="btn" onclick="checkAnswer('b','PIM ย่อมาจากอะไร ?')">B. ปิ๋ม</button>
+       <button class="btn" onclick="checkAnswer('c','PIM ย่อมาจากอะไร ?')">C. พิม</button>
+       <button class="btn" onclick="checkAnswer('d','PIM ย่อมาจากอะไร ?')">D. ภีม</button>
+
+       <p class="question">Gosoft ก่อตั้งเมื่อใด ?</p>
+       <button class="btn" onclick="checkAnswer('a', 'Gosoft ก่อตั้งเมื่อใด ?')">A. 1 ธันวาคม 2546</button>
+       <button class="btn" onclick="checkAnswer('b', 'Gosoft ก่อตั้งเมื่อใด ?')">B. 1 มกราคม 2546</button>
+       <button class="btn" onclick="checkAnswer('c', 'Gosoft ก่อตั้งเมื่อใด ?')">C. 1 พฤศจิกายน 2546</button>
+       <button class="btn" onclick="checkAnswer('d', 'Gosoft ก่อตั้งเมื่อใด ?')">D. 1 เมษายน 2546</button>
+       <br>
+       <p id="result"></p>
+       <br>
+       <button class="button_submit" onclick="clickSubmit()"> Submit</button>
+   </div>
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+</html>
